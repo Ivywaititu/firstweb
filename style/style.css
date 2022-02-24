@@ -1,0 +1,165 @@
+
+*{
+ margin: 0;
+}
+
+
+body{
+    background-color: beige;
+    font-family: "poppins", sans-serif;
+    line-height: 1.2;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 1400px;
+}
+#home-img{
+    height: 100vh;
+    width: 100%;
+   
+}
+.container .nav{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.logo{
+    letter-spacing: 2px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding: 15px;
+    color: white;
+}
+.logo:hover{
+    color: bisque;
+    cursor: grab;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav li{
+    list-style: none;
+    font-size: 16px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav a:hover{
+    color: bisque;
+}
+.nav ul li{
+    padding: 15px;
+    font-weight: 900;
+}
+.container .text{
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 600px;
+    
+    transform: translate(-50%, -50%);
+}
+.text h1{
+    font-weight: 900;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.text p{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: 1;
+    width: 200px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.8s;
+}
+.btn-card{
+    background-color: rgb(66, 60, 60);
+    color: white;
+}
+.btn:hover{
+    width: 210px;
+}
+.container-box{
+    background-color: aliceblue;
+   text-align: center;
+}
+.content{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+   background: rgb(255, 255, 255);
+   margin: 10px;
+   border-radius: 20px;
+   text-align: center;
+   box-shadow: 5px 15px 10px rgb(53, 52, 52);
+   color: grey;
+   flex: 1;
+   width: 200px;
+   padding: 15px;
+     
+   /*make this flex*/
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.box p{
+    text-align: justify;
+    word-spacing: 0.5px;
+}
+
+/*About us start*/
+
+#abt-img{
+    height: 75vh;
+    width: 100%;
+}
+.line{
+    border-top: 2px solid black;
+}
+
+.img-card{
+    position: relative;
+    border: solid 5px;
+    box-shadow: 5px 15px 10px rgb(0, 102, 255);
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+}
+.img-card img{
+    width: 100%;
+    height: 100%;
+}
+.img-card h2{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+   transform: translate(-50%,50%);
+    color: white;
+}
